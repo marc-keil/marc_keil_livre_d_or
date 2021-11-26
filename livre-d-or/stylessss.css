@@ -1,0 +1,235 @@
+* {
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+body  {
+margin: 0;
+background-color: grey;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+.titre1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.52);
+	margin: 0;
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(155, 153, 153);
+    position: sticky;
+    top: 0px;
+
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+	margin: 0;
+	vertical-align: middle;
+    line-height: 50px;
+}
+
+nav ul li{
+    flex: 1 1 auto;
+    text-align: center;
+    position: relative;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+	border-bottom: 10px solid transparent;
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(255, 238, 0);
+}
+.banner {
+background-image: url(https://zupimages.net/up/21/47/hege.png);
+background-size: contain;
+background-repeat: no-repeat;
+height: 30em;
+background-position: center;
+}
+footer {
+    background-color: gray;
+    
+    
+
+}
+
+.footerr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.page-header {
+    background-color: black;
+}
+.bouger {
+display: flex;
+justify-content: center;
+
+}
+.tajine {
+background-color: rgb(0, 0, 0);
+text-align: center;
+color: white;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c5eaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .formconnexion {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c5eaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .formconnexion:hover {background-color: #3e8e41}
+  
+  .formconnexion:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.test {
+color:white;
+}
+.forminscription {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c5eaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .forminscription:hover {background-color: #3e8e41}
+  
+  .forminscription:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .profila {
+    color: rgb(66, 78, 250);
+  }
+  .admin {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .admin:hover {background-color: #3e8e41}
+  
+  .admin:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  .deco {
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c5eaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .deco:hover {background-color: #3e8e41}
+  
+  .deco:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  a.testad {
+      color: rgb(255, 0, 0);
+  }
+  .boutondeco {
+    display: inline-block;
+    padding: 5px 25px;
+    cursor: pointer;
+    text-align: center;	
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c5eaf;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .boutondeco:hover {background-color: #3e8e41}
+  
+  .boutondeco:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.jacky {
+    min-height: 268px;
+	background-color:black;
+}
+.patate {
+	margin: 0;
+}
+.moncom {
+    
+        width: 500px;
+        height: fit-content;
+        overflow-wrap: break-word;
+        text-align: center;
+}
+
